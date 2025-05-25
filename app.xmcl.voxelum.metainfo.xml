@@ -29,7 +29,7 @@
   <launchable type="desktop-id">app.xmcl.voxelum.desktop</launchable>
 
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <caption>Main interface showing instance management</caption>
       <image>https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/home.png</image>
     </screenshot>
