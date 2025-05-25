@@ -1,0 +1,54 @@
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to publish"
+        required: true
+        default: "latest"
+  push:
+    branches:
+      - main
+
+jobs:
+  publish-tar:
+    permissions: write-all
+    name: Publish tar as release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get version from file
+        id: version
+        run: |
+          echo "version=$(cat version)" >> $GITHUB_OUTPUT
+
+      - name: Set version
+        id: set_version
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+          else
+            echo "VERSION=${{ steps.version.outputs.version }}" >> $GITHUB_ENV
+          fi
+
+      - name: Archive
+        run: tar -czf archive.tar.gz ./*
+
+      - name: Calculate SHA256
+        id: sha256
+        run: |
+          echo "sha256=$(sha256sum archive.tar.gz | cut -d ' ' -f1)" >> $GITHUB_OUTPUT
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: archive.tar.gz
+          tag_name: ${{ env.VERSION }}
+          name: Release for XMCL - ${{ env.VERSION }}
+          body: |
+            ### Release ${{ env.VERSION }}
+            - sha256: `${{ steps.sha256.outputs.sha256 }}`
