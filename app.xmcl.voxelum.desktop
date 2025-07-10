@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=X Minecraft Launcher
-Comment=A modern Minecraft launcher
+Comment=A modern Minecraft Launcher
 Exec=xmcl-wrapper.sh
 Icon=app.xmcl.voxelum
 Terminal=false

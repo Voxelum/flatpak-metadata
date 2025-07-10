@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>app.xmcl.voxelum</id>
   <name>X Minecraft Launcher</name>
-  <summary>A modern Minecraft launcher with modpack support</summary>
+  <summary>A modern Minecraft launcher</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer_name>Voxelum</developer_name>
 
-  <url type="homepage">https://xmcl.app/</url>
-  <url type="bugtracker">https://github.com/Voxelum/x-minecraft-launcher/issues</url>
-  <url type="help">https://github.com/Voxelum/x-minecraft-launcher/wiki</url>
-
   <description>
     <p>
-    X Minecraft Launcher (XMCL) is a feature-rich Minecraft launcher that lets you manage resources like modpacks, resource packs, mods, and shader packs. It integrates with Minecraft Forge, Fabric, Quilt, CurseForge, and Modrinth.
+      X Minecraft Launcher (XMCL) is a feature-rich Minecraft launcher that lets you manage
+      resources like modpacks, resource packs, mods, and shader packs. It integrates with Minecraft
+      Forge, Fabric, Quilt, CurseForge, and Modrinth.
     </p>
     <p>Key features:</p>
     <ul>
@@ -31,19 +29,24 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main interface showing instance management</caption>
-      <image>https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/home.png</image>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/home.png</image>
     </screenshot>
     <screenshot>
       <caption>Modpack browser with CurseForge and Modrinth integration</caption>
-      <image>https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/modpacks.png</image>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/modpacks.png</image>
     </screenshot>
   </screenshots>
 
+  <url type="homepage">https://xmcl.app/</url>
+  <url type="bugtracker">https://github.com/Voxelum/x-minecraft-launcher/issues</url>
+  <url type="help">https://xmcl.app/en/guide/install</url>
+  <url type="vcs-browser">https://github.com/Voxelum/x-minecraft-launcher</url>
+
   <releases>
-    <release version="0.51.1" date="2025-05-25">
-      <description>
-        <p>Latest stable release with performance improvements and bug fixes.</p>
-      </description>
+    <release version="0.51.1" date="2024-05-26">
+      <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.1</url>
     </release>
   </releases>
 
@@ -61,7 +64,27 @@
   </categories>
 
   <keywords>
-    <keyword>Minecraft</keyword>
-    <keyword>Launcher</keyword>
+    <keyword>minecraft</keyword>
+    <keyword>launcher</keyword>
+    <keyword>mod</keyword>
+    <keyword>modpack</keyword>
+    <keyword>forge</keyword>
+    <keyword>fabric</keyword>
+    <keyword>quilt</keyword>
+    <keyword>curseforge</keyword>
+    <keyword>modrinth</keyword>
   </keywords>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>gamepad</control>
+  </recommends>
+
+
+  <branding>
+    <color type="primary" scheme_preference="light">#14b8a6</color>
+    <color type="primary" scheme_preference="dark">#14b8a6</color>
+  </branding>
+
 </component>
