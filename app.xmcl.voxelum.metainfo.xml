@@ -15,15 +15,15 @@
     </p>
     <p>Key features:</p>
     <ul>
-      <li>⚡️ <strong>Blazing-Fast Downloads</strong>: Concurrent multi-part downloads with HTTP/HTTPS socket reuse for maximum speed</li>
-      <li>📚 <strong>Isolated Multi-Instancing</strong>: Create conflict-free environments for mods, versions, and custom configurations</li>
-      <li>🗂 <strong>Smart Resource Management</strong>: Zero-duplication storage using hard/symbolic links to optimize disk space</li>
-      <li>📦 <strong>One-Click Modpacks</strong>: Fully compliant import/export for CurseForge &amp; Modrinth collections</li>
-      <li>🔧 <strong>Direct Mod Integration</strong>: Browse and install individual mods from CurseForge &amp; Modrinth</li>
-      <li>⚙️ <strong>All Major Mod Loaders</strong>: Native support for Forge, Fabric, and Quilt frameworks</li>
-      <li>🎨 <strong>Visual Enhancement Hub</strong>: Unified management for resource packs, shader packs, and texture packs</li>
-      <li>👥 <strong>Multi-Account Hub</strong>: Seamless switching between Microsoft, Mojang, and third-party accounts</li>
-      <li>🌐 <strong>Serverless Multiplayer</strong>: Built-in peer-to-peer hosting for instant game sharing</li>
+      <li>⚡️  Blazing-Fast Downloads: Concurrent multi-part downloads with HTTP/HTTPS socket reuse for maximum speed</li>
+      <li>📚 Isolated Multi-Instancing: Create conflict-free environments for mods, versions, and custom configurations</li>
+      <li>🗂 Smart Resource Management: Zero-duplication storage using hard/symbolic links to optimize disk space</li>
+      <li>📦 One-Click Modpacks: Fully compliant import/export for CurseForge &amp; Modrinth collections</li>
+      <li>🔧 Direct Mod Integration: Browse and install individual mods from CurseForge &amp; Modrinth</li>
+      <li>⚙️  All Major Mod Loaders: Native support for Forge, Fabric, and Quilt frameworks</li>
+      <li>🎨 Visual Enhancement Hub: Unified management for resource packs, shader packs, and texture packs</li>
+      <li>👥 Multi-Account Hub: Seamless switching between Microsoft, Mojang, and third-party accounts</li>
+      <li>🌐 Serverless Multiplayer: Built-in peer-to-peer hosting for instant game sharing</li>
     </ul>
   </description>
 
