@@ -40,6 +40,42 @@
       <image>
         https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/modpacks.png</image>
     </screenshot>
+    <screenshot>
+      <caption>Exporting a modpack</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/Exports-Modpack.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Managing mods</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/Manager-Mods.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Multiplayer on LAN</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/Multiplayer-on-LAN.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Downloading resource packs</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/download-Resource
+        packs.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Downloading maps</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/download-maps.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Downloading mods</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/download-mods.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Downloading shader packs</caption>
+      <image>
+        https://raw.githubusercontent.com/Voxelum/flatpak-metadata/cded6924bee5cda2d43a91c1ef1a816e7d59a919/screenshots/download-shader-pack.png</image>
+    </screenshot>
   </screenshots>
 
   <url type="homepage">https://xmcl.app/</url>
