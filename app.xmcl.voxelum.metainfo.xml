@@ -75,10 +75,10 @@
   <url type="vcs-browser">https://github.com/Voxelum/x-minecraft-launcher</url>
 
   <releases>
-    <release version="0.51.2" date="2024-07-27">
+    <release version="0.51.2" date="2025-07-27">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.2</url>
     </release>
-    <release version="0.51.1" date="2024-05-26">
+    <release version="0.51.1" date="2025-05-26">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.1</url>
     </release>
   </releases>
