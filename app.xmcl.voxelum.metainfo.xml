@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>app.xmcl.voxelum</id>
   <name>X Minecraft Launcher</name>
-  <summary>A modern Minecraft launcher</summary>
+  <summary>A modern Minecraft Launcher</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   <developer_name>Voxelum</developer_name>
@@ -75,13 +75,16 @@
   <url type="vcs-browser">https://github.com/Voxelum/x-minecraft-launcher</url>
 
   <releases>
-    <release version="0.51.3" date="2025-08-08">
+    <release version="v0.51.4" date="2025-08-08">
+      <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.4</url>
+    </release>
+    <release version="v0.51.3" date="2025-08-08">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.3</url>
     </release>
-    <release version="0.51.2" date="2025-07-27">
+    <release version="v0.51.2" date="2025-07-27">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.2</url>
     </release>
-    <release version="0.51.1" date="2025-05-26">
+    <release version="v0.51.1" date="2025-05-26">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.51.1</url>
     </release>
   </releases>
