@@ -74,6 +74,9 @@
   <url type="vcs-browser">https://github.com/Voxelum/x-minecraft-launcher</url>
 
   <releases>
+    <release version="v0.54.1" date="2026-01-21">
+      <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.54.1</url>
+    </release>
     <release version="v0.54.0" date="2026-01-21">
       <url>https://github.com/Voxelum/x-minecraft-launcher/releases/tag/v0.54.0</url>
     </release>
